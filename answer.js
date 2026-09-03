@@ -12,10 +12,7 @@ function describeValue(value) {
     return `${typeof value} | ${checkValue }`;
 }
 
-console.log(describeValue("Shakil"));
-console.log(describeValue(1));
-console.log(describeValue("0"));
-console.log(describeValue(true));
+
 
 
 // Answer to the question no-02
@@ -65,13 +62,7 @@ function validateUsername(username){
     ? "Reserved Word" : "Available" ;
 }
 
-console.log(validateUsername("rahim123"));    
-console.log(validateUsername("ab"));           
-console.log(validateUsername("a b"));          
-console.log(validateUsername("abcd"));        
-console.log(validateUsername("rahim islam"));  
-console.log(validateUsername("superadmin99")); 
-console.log(validateUsername("Admin_Rahim"));
+
 
 
 // Answer to the question no-04
@@ -97,13 +88,7 @@ function getCngFare(distance, isNight , waitingMinutes) {
   return fare;
 }
 
-console.log( getCngFare(2));	
-console.log(getCngFare(1));	
-console.log(getCngFare(5));	
-console.log(getCngFare(10));
-console.log(getCngFare(5, false, 10));	
-console.log(getCngFare(5, true))	;
-console.log(getCngFare(5, true, 10));
+
 
 
 // Answer to the question no-02
@@ -134,9 +119,3 @@ const getChaseVerdict = (target, scored, ballsLeft) => {
   return `Need ${runsNeeded} runs in ${ballsLeft} balls | ${verdict}`;
 };
 
-console.log(getChaseVerdict(200, 200, 12));
-console.log(getChaseVerdict(200, 190, 0));
-console.log(getChaseVerdict(100, 90, 12));
-console.log(getChaseVerdict(100, 80, 12));
-console.log(getChaseVerdict(100, 70, 12));
-console.log(getChaseVerdict(150, 149, 1));
